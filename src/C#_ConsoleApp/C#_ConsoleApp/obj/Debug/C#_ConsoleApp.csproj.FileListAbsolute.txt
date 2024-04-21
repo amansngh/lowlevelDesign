@@ -1,0 +1,7 @@
+C:\Users\siaman\Documents\PracticeRuns\lowlevelDesign\src\C#_ConsoleApp\C#_ConsoleApp\bin\Debug\C#_ConsoleApp.exe.config
+C:\Users\siaman\Documents\PracticeRuns\lowlevelDesign\src\C#_ConsoleApp\C#_ConsoleApp\bin\Debug\C#_ConsoleApp.exe
+C:\Users\siaman\Documents\PracticeRuns\lowlevelDesign\src\C#_ConsoleApp\C#_ConsoleApp\bin\Debug\C#_ConsoleApp.pdb
+C:\Users\siaman\Documents\PracticeRuns\lowlevelDesign\src\C#_ConsoleApp\C#_ConsoleApp\obj\Debug\C#_ConsoleApp.csproj.AssemblyReference.cache
+C:\Users\siaman\Documents\PracticeRuns\lowlevelDesign\src\C#_ConsoleApp\C#_ConsoleApp\obj\Debug\C#_ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\siaman\Documents\PracticeRuns\lowlevelDesign\src\C#_ConsoleApp\C#_ConsoleApp\obj\Debug\C#_ConsoleApp.exe
+C:\Users\siaman\Documents\PracticeRuns\lowlevelDesign\src\C#_ConsoleApp\C#_ConsoleApp\obj\Debug\C#_ConsoleApp.pdb
