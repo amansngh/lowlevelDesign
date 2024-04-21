@@ -1,0 +1,3 @@
+interface IStockObserver {
+    update() : string[];
+}

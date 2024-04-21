@@ -1,0 +1,3 @@
+interface IVehicle {
+    onRoadPrice() : string;
+}

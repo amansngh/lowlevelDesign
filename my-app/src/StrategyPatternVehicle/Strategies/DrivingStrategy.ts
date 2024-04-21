@@ -1,0 +1,4 @@
+interface DrivingStrategy
+{
+    drive() : string;
+}
