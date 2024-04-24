@@ -45,6 +45,15 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TicTacToe\Game.cs" />
+    <Compile Include="TicTacToe\Model\Board.cs" />
+    <Compile Include="TicTacToe\Model\DefaultGameStrategy.cs" />
+    <Compile Include="TicTacToe\Model\GameStrategyType.cs" />
+    <Compile Include="TicTacToe\Model\IGameStrategy.cs" />
+    <Compile Include="TicTacToe\Model\IPiece.cs" />
+    <Compile Include="TicTacToe\Model\Piece.cs" />
+    <Compile Include="TicTacToe\Model\PieceType.cs" />
+    <Compile Include="TicTacToe\Model\Player.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
