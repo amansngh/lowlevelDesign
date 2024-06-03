@@ -1,0 +1,4 @@
+interface IPlayer
+{
+    //playing piece
+}

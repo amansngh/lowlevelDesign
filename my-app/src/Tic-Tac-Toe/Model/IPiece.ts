@@ -1,0 +1,4 @@
+interface IPiece
+{
+    value(): PieceType;
+}

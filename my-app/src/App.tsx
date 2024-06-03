@@ -2,17 +2,18 @@ import * as React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Link from './Components/Link';
-import Vehicle from './ParkingLot/Vehicle';
-import EntranceGate from './ParkingLot/EntranceGate';
-import { VehicleType } from './ParkingLot/VehicleType';
-import ExitGate from './ParkingLot/ExitGate';
+import BankSystem from './Bank System/BankSystem';
 
 function App() {
-let vehicle1 = new Vehicle('TSO9H9962', VehicleType._4Wheeler);
-let vehicle2 = new Vehicle('DLO9K9963', VehicleType._2Wheeler);
+ var BS = new BankSystem();
+ console.log(BS.createAccount("Aman", 500, Date.now()));
+ console.log(BS.createAccount("Nikhil", 5000, Date.now()));
+ console.log(BS.createAccount("Nikku", 1000, Date.now()));
 
-let ticket1 = EntranceGate.generateTicket(new Date('2024-03-16T19:25:00+05:30'), vehicle1.getVehicleType(), vehicle1.getVehicleNumber());
-let ticket2 = EntranceGate.generateTicket(new Date('2024-03-16T19:25:00+05:30'), vehicle2.getVehicleType(), vehicle2.getVehicleNumber());
+ console.log(BS.deposit("1", 500, Date.now()));
+ console.log(BS.withdraw("2", 6000, Date.now()))
+
+ console.log(BS.transfer("2", "1", 500, Date.now()));
 
   return (
     <div className="App">
@@ -22,11 +23,8 @@ let ticket2 = EntranceGate.generateTicket(new Date('2024-03-16T19:25:00+05:30'),
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <Link href="https://www.google.com" targetBlank={true}>
-          Navigate to Google
+          Navigate to google
         </Link>
-        
-        <body>{ExitGate.exitComplete(ticket1)}</body>
-        <a>{ExitGate.exitComplete(ticket2)}</a>
       </header>
     </div>
   );
