@@ -2,18 +2,11 @@ import * as React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Link from './Components/Link';
-import BankSystem from './Bank System/BankSystem';
+import Solution from './Splitwise/splitwise';
 
 function App() {
- var BS = new BankSystem();
- console.log(BS.createAccount("Aman", 500, Date.now()));
- console.log(BS.createAccount("Nikhil", 5000, Date.now()));
- console.log(BS.createAccount("Nikku", 1000, Date.now()));
-
- console.log(BS.deposit("1", 500, Date.now()));
- console.log(BS.withdraw("2", 6000, Date.now()))
-
- console.log(BS.transfer("2", "1", 500, Date.now()));
+ var BS = new Solution();
+ BS.run();
 
   return (
     <div className="App">
